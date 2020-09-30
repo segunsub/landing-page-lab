@@ -1,27 +1,42 @@
+* {
+    margin: 0;
+}
 body {
+     width: 1440px;
+    height: 800px;
     background-color: #a58686;
-    width: 1534px; 
-    height: 800;
+    margin: auto;
 }
 .main {
     width: 1140px;
-    height: 220px;
+    height: 230px;
     background-color: #e9e9e9;
     margin: auto;
     text-align: center;
-    font-family: arial;
+}
+.todo {
+     font-weight: bold;
+     font-family: Arial;
+     font-size: 45px;
+     padding-top: 20px;
+     padding-bottom: 20px;
 }
 #h1 {
    font-size: 75px ;
+   font-family: Arial;
 }
 #h3 {
-    font-size: 55px;
+    font-size: 45px;
+    font-family: arial;
+    padding-top: 30px;
+    font-weight: none;
 }
 aside {
     background-color: teal;
-    height: 580px;
+    height: 800px;
     width: 330px;
     float: left;
+    background-color: #64b0a7;
 }
 .article {
     background-color: white;
@@ -32,4 +47,24 @@ aside {
 div {
     width: 1140px;
     height: 800px;
+    background-color: white;
+    margin: auto;
+}
+.juice {
+    color: white;
+}
+p {
+    padding-left : 40px;
+    padding-top : 30px;
+    padding-right: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+figure {
+    padding-left: 40px;
+    padding-top: 15px;
+}
+ol {
+    font-family: Arial;
+    font-size: 30px;
 }
